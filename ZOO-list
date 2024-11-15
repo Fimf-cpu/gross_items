@@ -1,0 +1,14 @@
+animals = ["monkey", "elephant", "lion", "tiger", "giraffe"]
+
+animals.append("panda")
+
+print(animals)
+print(len(animals))
+
+animals.remove("lion")
+print("the lion escaped")
+print(animals)
+
+animals[1] = "meerkat"
+print("the elephant went on vacation, so here is a meerkat")
+print(animals)
